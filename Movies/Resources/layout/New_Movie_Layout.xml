@@ -1,0 +1,120 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"  android:background="@android:color/holo_red_light">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+  
+
+    <TextView
+        android:text=" NEW MOVIE FORM"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal" />
+    
+    <TextView
+        android:text="ID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_movie_id"
+        android:gravity="center_horizontal" android:visibility="invisible"   />
+
+     <TextView
+        android:text="TYPE ID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_type_id"
+        android:gravity="center_horizontal" android:visibility="invisible"   />
+    
+
+     <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_show_type" android:minHeight="10dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_movie_name"
+        android:hint="Movie Name" />
+
+
+     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_year"
+        android:hint="MOVIE YEAR" />
+
+     
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_show_movie" android:minHeight="10dp" />
+    
+   
+       
+    
+ 
+   
+        <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView1" android:visibility="invisible" />
+
+         <TableLayout
+           android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+             <TableRow  android:layout_width="match_parent" android:layout_height="wrap_content">
+                 <Button
+        android:text="SAVE MOVIE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save_movie"  android:background="@android:color/holo_red_dark" />
+
+                 <Button
+        android:text="UPDATE MOVIE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update_movie"  android:background="@android:color/holo_red_dark" />
+                </TableRow>
+                
+
+         <TableRow  android:layout_width="match_parent" android:layout_height="wrap_content">
+ <Button
+        android:text="NEW MOVIE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_new_movie"  android:background="@android:color/holo_red_dark" />
+
+                
+                 <Button
+        android:text="DELETE MOVIE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete_movie"  android:background="@android:color/holo_red_dark" />
+        </TableRow>
+     </TableLayout>
+
+
+
+
+</LinearLayout>
+   
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp" android:background="@android:color/holo_red_light">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+  
+
+    <TextView
+        android:text="MOVIES TYPES"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center_horizontal" />
+    
+    <TextView
+        android:text="ID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_type_id"
+        android:gravity="center_horizontal"  />
+    
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_name"
+        android:hint="MOVIE TYPE" />
+
+          <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_type" android:minHeight="10dp" />
+
+          <Button
+        android:text="NEW MOVIE TYPE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_new"  android:background="@android:color/holo_red_dark" />
+      <Button
+        android:text="SUBMIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"  android:background="@android:color/holo_red_dark" />
+  
+    
+    <Button
+        android:text="DELETE MOVIE TYPE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete"  android:background="@android:color/holo_red_dark" />
+
+     <Button
+        android:text="UPDATE MOVIE TYPE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update" android:background="@android:color/holo_red_dark" />
+          <Button
+        android:text="NEW MOVIE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_new_movie"  android:background="@android:color/holo_red_dark" />
+  
+
+</LinearLayout>
+</RelativeLayout>

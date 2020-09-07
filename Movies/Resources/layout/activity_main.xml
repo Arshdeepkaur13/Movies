@@ -1,0 +1,77 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"  android:background="@android:color/holo_red_light" android:textColor="@android:color/white" >
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+         <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="MOVIES DETAILS"
+            android:textSize="18dip"
+            android:textStyle="bold" android:textColor="@android:color/white" />
+ 
+      
+ 
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:text="WELCOME BACK"
+            android:textSize="16dip" android:textColor="@android:color/white"  />
+ 
+        <EditText
+            android:id="@+id/txt_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="User Name :"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" android:textColor="@android:color/white"  />
+ 
+        <EditText
+            android:id="@+id/txt_pass_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="Password : "
+            android:password="true"
+            android:singleLine="true" android:textColor="@android:color/white"  />
+ 
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:text="Login"
+            android:background="@android:color/holo_red_dark"
+          
+            android:textStyle="bold" />
+ 
+        <Button
+            android:id="@+id/btn_new_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="NEW USER"
+            android:textStyle="bold" />
+
+</LinearLayout>
+</RelativeLayout>
